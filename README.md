@@ -1,11 +1,11 @@
-# react-native-render-html
+# react-native-render-html2
 
 An iOS/Android pure javascript react-native component that renders your HTML into 100% native views. It's made to be extremely customizable and easy to use and aims at being able to render anything you throw at it.
 
 > Based on the original work of [Thomas Beverley](https://github.com/Thomas101), props to him.
 
 ![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-brightgreen.svg?style=flat-square&colorB=191A17)
-[![npm](https://img.shields.io/npm/v/react-native-render-html.svg?style=flat-square)](https://www.npmjs.com/package/react-native-render-html)
+[![npm](https://img.shields.io/npm/v/react-native-render-html.svg?style=flat-square)](https://www.npmjs.com/package/react-native-render-html2)
 [![npm](https://img.shields.io/npm/dm/react-native-render-html.svg?style=flat-square&colorB=007ec6)](https://www.npmjs.com/package/react-native-render-html)
 <!-- [![github release](https://img.shields.io/github/release/archriss/react-native-render-html.svg?style=flat-square)](https://github.com/archriss/react-native-render-html/releases) -->
 [![github issues](https://img.shields.io/github/issues/archriss/react-native-render-html.svg?style=flat-square)](https://github.com/archriss/react-native-render-html/issues)
@@ -37,14 +37,14 @@ An iOS/Android pure javascript react-native component that renders your HTML int
 
 ## Install
 
-`npm install react-native-render-html --save` or `yarn add react-native-render-html`
+`npm install react-native-render-html2 --save` or `yarn add react-native-render-html2`
 
 ## Basic usage
 
 ```javascript
 import React, { Component } from 'react';
 import { ScrollView, Dimensions } from 'react-native';
-import HTML from 'react-native-render-html';
+import HTML from 'react-native-render-html2';
 
 const htmlContent = `
     <h1>This HTML snippet is now rendered with native components !</h1>
@@ -308,7 +308,7 @@ You can't expect native components to be able to render *everything* you can fin
 **Please note** that if you supply `ignoredTags`, you will override the default ignored ones. There are *a lot* of them, if you want to keep them and add your own, you can do something like :
 
 ```javascript
-import { IGNORED_TAGS } from 'react-native-render-html/src/HTMLUtils';
+import { IGNORED_TAGS } from 'react-native-render-html2/src/HTMLUtils';
 ...
 
 // your props
@@ -325,7 +325,7 @@ The API is exposing some functions you can use to write advanced behaviors more 
 You can import them like so :
 
 ```javascript
-import { functionName } from 'react-native-render-html/src/HTMLUtils';
+import { functionName } from 'react-native-render-html2/src/HTMLUtils';
 ```
 
 * `getParentsTagsRecursively(node)`
